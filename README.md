@@ -13,15 +13,15 @@ All commands are terminated with `\n`. General errors include:
 
 Create an account: `create <username> <password>`
 
+* `success`
 * `error username-taken`
 * `error username-invalid`
 * `error password-invalid`
-* `success`
 
 Connect to an account: `connect <username> <password>`
 
-* `error password-incorrect`
 * `success`
+* `error password-incorrect`
 
 Find out who you are: `whoami`
 
