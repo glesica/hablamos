@@ -27,3 +27,23 @@ Find out who you are: `whoami`
 
 * `success <username>`
 * `error unauthenticated`
+
+Fetch contacts: `contacts[ online]`
+
+* `success <contact1>,<contact2>,...`
+* `error unauthenticated`
+
+Add a contact: `add <username>`
+
+* `success`
+* `error user-not-found`
+
+Remove a contact: `remove <username>`
+
+* `success`
+* `error user-not-found`
+
+Message a user: `send <username> <message>`
+
+* `success`
+* `error user-not-found`
